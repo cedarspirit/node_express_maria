@@ -1,0 +1,26 @@
+{
+  "name": "db_demo",
+  "version": "1.0.0",
+  "description": "A test program to create an API to connect to mariadb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedarspirit/node_express_maria.git"
+  },
+  "author": "TJ EST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedarspirit/node_express_maria/issues"
+  },
+  "homepage": "https://github.com/cedarspirit/node_express_maria#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mariadb": "^3.3.1",
+    "express": "^4.19.2"
+    
+  }
+}
